@@ -1,20 +1,17 @@
 # **SpyglassMC Files**
 
-SpyglassMC 的 Java 版方块状态、命令、注册表、原版资源包、原版数据包和版本列表。
+缓存的 SpyglassMC 的 Java 版方块状态、命令、注册表、原版资源包、原版数据包和版本列表，供其他项目使用。
 
 ## **准备工作**
 
-Git、Python 3.14
-
-对于 Windows 7：Git 2.35.2、VxKex-NEXT（用它运行 Python 3.14）
-
-对于 Windows 8.1：Git 2.54.x
+Python 3.x
 
 ## **如何获取对应版本的文件**
 
-由于所有版本的文件全部下载会很大，所以采取按需下载策略。
+由于所有版本的文件全部下载会导致存储库很大，所以存储库不包含缓存的文件。
 
-首先运行 get_versions.cmd 来获取版本列表，然后运行 get_spyglassmc_files.cmd \<你要下载的版本\> 来生成下载链接，最后运行 download_files.cmd \<你要下载的版本> 即可获得该版本的文件。
+当你需要某个版本的文件时：  
+首先运行 get_versions.cmd 来获取版本列表，然后运行 get_spyglassmc_files.cmd \<你要下载的版本\> --download-now 来下载该版本的文件。
 
 ## **其他工具**
 

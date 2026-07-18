@@ -3,3 +3,5 @@ versions
 mcversions.csv
 versions.json
 versions.txt
+/logs
+/*.txt

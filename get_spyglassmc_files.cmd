@@ -13,8 +13,18 @@ if /I "%~1" equ "" goto :error
         echo.
     )
 ) > %~1.txt
+if /I "%~2" equ "" (
+    goto :exit
+) else if /I "%~2" equ "--download-now" (
+    download_files.cmd "%~1"
+    goto :exit
+) else (
+    goto :error
+)
+:exit
 popd
 exit /b 0
 :error
+echo.参数：get_spyglassmc_files.cmd ^<version^> [--download-now]
 popd
 exit /b 1

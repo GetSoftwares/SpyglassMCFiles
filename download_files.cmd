@@ -7,7 +7,7 @@ if not defined MC_VERSION (
     echo.你没有输入版本。请再试一次。
     exit /b 1
 )
-findstr /I /C:"%MC_VERSION%" verisons.txt 1>NUL 2>NUL
+findstr /I /C:"%MC_VERSION%" versions.txt 1>NUL 2>NUL
 if %ERRORLEVEL% neq 0 (
     echo.找不到版本 %MC_VERSION%。
     exit /b 1
