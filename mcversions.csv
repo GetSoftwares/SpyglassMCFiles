@@ -460,3 +460,6 @@ id,data_version,data_pack_version,data_pack_version_minor,resource_pack_version,
 26.4-snapshot-1,5119,122,0,98,0
 26.4-snapshot-2,5120,122,1,99,0
 26.4-snapshot-3,5122,123,0,100,0
+26.4-snapshot-4,5124,124,0,100,1
+26.4-snapshot-5,5125,125,0,100,2
+26.4-snapshot-6,5126,125,1,101,0
